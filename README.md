@@ -4,14 +4,17 @@ Repositório com os programas e instruções para a geração, utilizando Pythia
 
 Todas as informações relevantes para a geração dos eventos estão no arquivo gen.C, os demais arquivos apenas viabilizam a compilação e execução. O número de eventos desejado pode ser setado neste arquivo, na linha 54.
 
-
 Para conseguir rodar na sua máquina, é necessário possuir o Pythia8 e o ROOT6 devidamente instalados.
 
 Para rodar, basta fazer:
 
-source go_gen;
+$ git@github.com:jgomespi/Upsilon_gen.git
 
-que vai compilar o programa gen. Para executar, basta fazer:
+$ cd Upsilon_gen
 
-./gen
+$ source go_gen
+
+Acima fazemos o download do repositório e compilamos o programa gen.C. Para executar, basta fazer:
+
+$ ./gen
 
