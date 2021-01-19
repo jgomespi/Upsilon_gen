@@ -8,7 +8,7 @@ Para conseguir rodar na sua máquina, é necessário possuir o Pythia8 e o ROOT6
 
 Para rodar, basta fazer:
 
-$ git@github.com:jgomespi/Upsilon_gen.git
+$ git clone git@github.com:jgomespi/Upsilon_gen.git
 
 $ cd Upsilon_gen
 
